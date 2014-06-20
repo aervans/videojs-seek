@@ -1,0 +1,20 @@
+{
+  "name": "videojs-seek",
+  "version": "0.1.0",
+  "description": "A videojs plugin for seeking to a query string specified time",
+  "license": "MIT",
+  "repository": "https://github.com/aervans/videojs-seek",
+  "author": {
+    "name": "Adam Ervans",
+    "email": "",
+    "url": "https://github.com/aervans"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-coffee": "~0.10.1",
+    "grunt-contrib-uglify": "~0.2.7"
+  }
+}
