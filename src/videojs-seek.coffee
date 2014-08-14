@@ -6,8 +6,7 @@ videojs.plugin 'seek', (options = {}) ->
 
   seekParam = options['seek_param'] or JSON.parse(@options()['data-setup'] ? '{}')['seek_param'] or 't'
   seekValue = parseInt getNamedParameterValue(seekParam)
-  tech = options.tech or ['Html5', 'Flash']
 
-  if seekValue and @Ca in tech
+  if seekValue
     @ready ->
       @one 'playing', -> @currentTime seekValue

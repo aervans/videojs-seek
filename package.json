@@ -1,6 +1,6 @@
 {
   "name": "videojs-seek",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A videojs plugin for seeking to a query string specified time",
   "license": "MIT",
   "repository": "https://github.com/aervans/videojs-seek",
