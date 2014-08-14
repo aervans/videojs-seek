@@ -5,7 +5,7 @@ A videojs plugin for seeking to a query string specified time.
 
 Using the Plugin
 ----------------
-The plugin automatically registers itself when you include videojs-seek.js in your page:
+Initialize the plugin as described in step 3 of the [Video.js plugin wiki page](https://github.com/videojs/video.js/blob/master/docs/guides/plugins.md).
 
 <script src='videojs-seek.min.js'></script>
 
